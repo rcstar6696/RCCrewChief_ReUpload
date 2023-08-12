@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RCCrewChief V4.3.exe" version="4.3.2.13" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="RCCCIcon4.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RCCrewChief V4.3" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RCCrewChief V4.3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="259464">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ht9gayw7qviBWoZTNeGrJx3jUcI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RCCrewChief V4.3.exe" size="11399168">
+      <assemblyIdentity name="RCCrewChief V4.3" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>77YTyh++dh/0hzurRrYvLsjQuFk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AMD64\sqlceca35.dll" size="573296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ljPKMsn8Nvkx1Ig1fgBlYxEDNZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlcecompact35.dll" size="117616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VZZNYkDlURgFq1LUtU7wy+nKAYc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlceer35EN.dll" size="147824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+mj78FC2kXVBRQQs9UOGTy0g7yA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlceme35.dll" size="89456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wsxHyUmkOmue+zXzX20QbfTk64w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlceoledb35.dll" size="257392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Hwm5C0PvxK+15/PHutd2W+qlGzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlceqp35.dll" size="1131376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KGzTxXunNomcTbtUpySGvnSJ5B0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AMD64\sqlcese35.dll" size="670576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dZ1v+4aYQ4sfWDi1VUw/weyDXBA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DamperList.sdf" size="86016" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PkuGXuonKNmdCZCj+oGls2oTaKs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Dynamic.sdf" size="28672" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ocOnUWPEYEGI3Zk2TsgWppBNUIs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Dyno.sdf" size="163840" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZTbIowIjRp6Udw71hdd8HxJQhRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\DCAD\ARBBarWire.jpg" size="109283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>touMJasJVGfTZxyxbqc++sO09no=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\DCAD\ARBWireBeam.jpg" size="94741">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QuID/looRBE4HbM3siB0e0VnnRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Graphics\DCAD\CarValues.jpg" size="20151">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>o/fMZJrGu79xCBGcgTl3Kons/AE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\AccelTab.pdf" size="350095">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K6LhkmX4rLmf9VvuKfWzMNDq8YA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ARBBladeWrkSht.pdf" size="25335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IkGN6phWAD7ah+GpvE/VjAVrr6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ARBWireBarWrkSht.pdf" size="22051">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>24ns0Kl1XLBu2ZTvCkC+7QX7Uu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ARBWireBeamWrkSht.pdf" size="27255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OXFTBvBckbMs1Am4DlSYenWCBeo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ARBWireBladeWrkSht.pdf" size="23262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mkOX9yjJsw3puhT5bd1bJTrSIQA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ARBWireWrkSht.pdf" size="21986">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tAFbHbdHHoCFm83c2FJvf1jch0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\BatteryManager.pdf" size="41336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5RGhbuL9w0wjt0IpuSfUEOTmNdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\CalculatorTab.pdf" size="263993">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FqQAjJcu2Ldhn95BOeSDqaYfJjA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\Car Setup StepsV2.pdf" size="20159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NsKpx6fGFbqqtM14haoAjSQFw2A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\CarManager.pdf" size="430074">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cyREjekL5mVSX50aTr8j1SBsA7I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ChassisManager.pdf" size="1097881">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>V9NtAWYmV0RjRd1LBbKna7QmH8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ChassisWrkSht.pdf" size="35259">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1Y800hsu3pXGgufQKZhQaXRkKKA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\DamperWrksht.pdf" size="24772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yuEedqGHb2U9+ibwh++Cm1Abgvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\DampingTab.pdf" size="364731">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BTYeY6WphbdMQwxnJpKTsyVSaLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\DynamicTab.pdf" size="496015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YhAMGYwcpVAzvI3Egu10H8UwDmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ESCManager.pdf" size="69451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>J4rBXgWKYSUGh/ZDRozz0+BAC2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\BatteryManager-FR.pdf" size="255278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LUg9kdZnjsuwv0mmjly0frQZp8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\CalculatorTab-FR.pdf" size="212391">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SpsGRyuo306bnQFpGHKQh7+/nvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\CarManager-FR.pdf" size="397500">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LPcBHkhkbNW7he2JPfwWhc5npAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\ChassisManager-FR.pdf" size="933438">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qJyWeJpSPe4l0DqptkrOoZGcA94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\DynamicTab-FR.pdf" size="518687">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NodPDBa79AKFoWO9DjsfhGaFewI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\ESCManager-FR.pdf" size="105540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZUnQwMn5mdGceYLqRL7ltPZQERY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\HandlingTab-FR.pdf" size="255284">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZR6n2U/mcmQz6WDzAQsxx2CDb9w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\MainTab-FR.pdf" size="402417">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YDm5EDDmoxibTbelpkVqTrBXMS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\MotorManager-FR.pdf" size="996569">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0deoPEVPs3sAGMR8Ulv9fBuNSmw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\NitroManager-FR.pdf" size="283921">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/Rle1g5R1/R2J+uJsHIDj3f9YZU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\French\SetupTab-FR.pdf" size="351216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jwHMxBqkqsI3OjK5WZH7d6n+5k0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\HandlingTab.pdf" size="251224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>B62HwqBqNdMawnNmSCaDTx1bE1Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\MainTab.pdf" size="384010">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N57NuqJFHLttWNu3yifiJyeskD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\MotorManager.pdf" size="1105531">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UzAAEXEbdNzHuqf22v8M7nr7Chg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\NitroManager.pdf" size="286362">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QPGbJ/wb0DLJ+E7QEq6UBLPcwkA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SetupTab.pdf" size="552038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0afLFSGVBeoHZDlSyZT+YFRD1xA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\ShockWrkSht.pdf" size="27485">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>txCYWcnFRw8LcGeEO/AD+LIODgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SpringWrkSht.pdf" size="65348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xpRAJs4ZnazIjOKh9Qe1+0KVjrw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SteerBellCrnkWrksht.pdf" size="23771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7tM3/UhW1wxbpbsnpfUExLaSLko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SteerRevBellCrnkWrksht.pdf" size="25270">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+CKBr984N5ATFuOUD37sxi4keNY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SteerSldrRackWrksht.pdf" size="23594">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sm5FaV2XGxHty+vvnc/x+NijBTU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFiles\SuspensionWrkSht.pdf" size="22797">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5QorOuCOxY1oekhEYYuMY2ZQOY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icon.ico" size="1987942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NVKUpD3kGWOYwlfzEZQXxlrhFrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NitroMotor.sdf" size="122880" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VDVWwesZm69lyVY7xylLqFM7AMI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RCCarV2.sdf" size="1601536" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5QlLKh3Q7ql4VJPyoztIRcZGU6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RCCCicon.ico" size="7886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1HnSr6XP4JitcH3JvNBgVyB6kg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RCCCIcon4.ico" size="34758">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cYzqMbQjSRM3xj6G6UqfFrPKtKM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RCCrewChief V4.3.exe.config" size="2909">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MkbIXv7cV34Yeh1FsKORuZpXq2w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Units.sdf" size="86016" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>m6Y9TviNJXyMKFfBgj/lccoQBTk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlceca35.dll" size="342384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+9dQH2qbRuZkqoLUtWliXkqyDG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlcecompact35.dll" size="83312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Li5mxD/TyGgL6GDdD4cX/Ema8o0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlceer35EN.dll" size="147312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WOYpEbFkDUAYBCoFA0N21a+gpj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlceme35.dll" size="63344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OrpOyOyglQxki9WmjrgMghhHi04=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlceoledb35.dll" size="169328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rmJdIcIlKGl653Ekc2bd55L7+yI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlceqp35.dll" size="640880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HwcMMSWib3pFN4U53zUkAMkf0Cc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlcese35.dll" size="361840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rUO46dfHkI4KJFSCZ+qu1x31NEk=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
